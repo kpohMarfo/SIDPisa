@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Desa Pisa</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="D:\Open SID Desa Pisa\INDEX\logo_ppk_bulat_1.png" alt="Logo Desa Pisa">
+            <h1>Sistem Informasi DESA PISA</h1>
+        </div>
+        <div class="login">
+            <button>Login</button>
+        </div>
+    </header>
+    
+    <main>
+        <section class="welcome">
+            <h1>Selamat Datang Di Website Resmi Sistem Informasi Desa Pisa</h1>
+            <p>Menyediakan Produk Olahan Terbaik.</p>
+            <button>Jelajahi produk</button>
+        </section>
+
+        <section class="products">
+            <h3>Produk kami</h3>
+            <div class="product-list">
+                <div class="product-item">
+                    <img src="D:\Open SID Desa Pisa\INDEX\rectangle_156.jpeg" alt="Gula Aren">
+                    <h4>Gula aren</h4>
+                    <p>Produk Olahan Air Nira Terbaik.</p>
+                    <p class="price">Rp. 50,000</p>
+                    <a href="#" class="orderBtn">Order</a>
+                </div>
+                <div class="product-item">
+                    <img src="D:\Open SID Desa Pisa\INDEX\rectangle_156.jpeg" alt="Gula Aren Cair">
+                    <h4>Gula aren cair</h4>
+                    <p>Varian Produk Dari Olahan Air Nira.</p>
+                    <p class="price">Rp. 50,000</p>
+                    <a href="#" class="orderBtn">Order</a>
+                </div>
+                <div class="product-item">
+                    <img src="D:\Open SID Desa Pisa\INDEX\rectangle_156.jpeg" alt="Gula Aren Bubuk">
+                    <h4>Gula aren bubuk</h4>
+                    <p>Varian Produk Dari Olahan Air Nira.</p>
+                    <p class="price">Rp. 50,000</p>
+                    <a href="#" class="orderBtn">Order</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-media">
+            <a href="#"><img src="D:\Open SID Desa Pisa\INDEX\ic_baseline-whatsapp.png" alt="WhatsApp"></a>
+            <a href="#"><img src="D:\Open SID Desa Pisa\INDEX\mdi_instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="D:\Open SID Desa Pisa\INDEX\material-symbols_mail-outline.png" alt="Email"></a>
+        </div>
+        <p>Created by PPK ORMAWA © 2024</p>
+    </footer>
+
+    <!-- Modal HTML -->
+    <div id="orderModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Formulir Kontak</h2>
+            <form action="#" method="post">
+                <label for="nama">Nama :</label>
+                <input type="text" id="nama" name="nama" required>
+
+                <label for="kontak">No. HP atau Email :</label>
+                <input type="text" id="kontak" name="kontak" required>
+
+                <label for="pesan">Pesanan Anda :</label>
+                <textarea id="pesan" name="pesan" required></textarea>
+
+                <button type="submit" class="submit-button">Kirim</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
