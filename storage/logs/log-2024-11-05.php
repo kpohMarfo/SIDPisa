@@ -105,3 +105,7 @@ Stack trace:
 #18 C:\xampp\htdocs\OpenSID-umum\vendor\codeigniter\framework\system\core\CodeIgniter.php(533): First->index()
 #19 C:\xampp\htdocs\OpenSID-umum\index.php(284): require_once('C:\\xampp\\htdocs...')
 #20 {main}
+ERROR - 2024-11-05 05:12:55 --> Severity: Warning --> The use statement with non-compound name 'Exception' has no effect C:\xampp\htdocs\OpenSID-umum\donjo-app\controllers\Rtm.php 49
+ERROR - 2024-11-05 05:12:56 --> Severity: Warning --> The use statement with non-compound name 'Exception' has no effect C:\xampp\htdocs\OpenSID-umum\donjo-app\controllers\Rtm.php 49
+ERROR - 2024-11-05 05:12:56 --> Severity: Warning --> The use statement with non-compound name 'Exception' has no effect C:\xampp\htdocs\OpenSID-umum\donjo-app\controllers\Rtm.php 49
+ERROR - 2024-11-05 05:12:56 --> Severity: Warning --> The use statement with non-compound name 'Exception' has no effect C:\xampp\htdocs\OpenSID-umum\donjo-app\controllers\Rtm.php 49
