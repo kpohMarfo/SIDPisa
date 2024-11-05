@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <h1 align="center">Selamat datang di OpenSID! 👋</h1>
 
 ![readme-image](https://user-images.githubusercontent.com/46939846/103254436-d5381f80-49b7-11eb-8c2b-99dc4c7de30b.png "OpenSID membantu penanggulangan COVID-19")
@@ -91,3 +92,6 @@ Apakah desa/lembaga/perusahaan anda mendapat manfaat dari OpenSID? Bantu kami te
 Berikut adalah teman-teman luar biasa yang telah berkontribusi langsung mengembangkan aplikasi OpenSID.
 
 [![Contributors](https://contrib.rocks/image?repo=OpenSID/OpenSID)](https://github.com/OpenSID/OpenSID/graphs/contributors)
+=======
+# SIDPisa
+>>>>>>> 1c67d93c8e31075fab78e34f26142a520a47c64e
